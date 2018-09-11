@@ -80,7 +80,11 @@ ui <- dashboardPage(
       # Second tab content
       tabItem(tabName = "load-data",
               h2("Load Data Section"),
-              fluidRow(csvFileInput("datafile", "User data (.csv format)")),
+              fluidRow(
+                wellPanel(
+                  column(12, csvFileInput("datafile", "User data (.csv format)"))
+                  )  
+                ),
               fluidRow(box(column(DT::dataTableOutput("csvTable"), width = 12)))
               
       ),
