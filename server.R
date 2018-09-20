@@ -17,6 +17,17 @@ server <- function(input, output) {
   })
 
   output$csvTable = DT::renderDataTable(datasetInput())
+  
+  
+  output$srvCategorizationReportTable = DT::renderDataTable({ mtcars })
+  
+  
+  output$srvCategorizationReportPlot = renderPlot({
+    plot(mtcars$mpg)
+  })
+  
+  
+  
 
 }
 

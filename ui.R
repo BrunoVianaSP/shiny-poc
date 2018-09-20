@@ -104,8 +104,10 @@ ui <- dashboardPage(
       tabItem(tabName = "submenu-categorization",
               h2("Categorization Report"),
               fluidRow( box(
-                fileInput("FileInput", "Choose file")),
-                column(DT::dataTableOutput("srvDataTable"), width = 12))
+                fileInput("FileInput", "Choose file"))),
+              fluidRow(
+                column(6, DT::dataTableOutput("srvCategorizationReportTable")),
+                column(6, plotOutput("srvCategorizationReportPlot")))
 
       )
 
