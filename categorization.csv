@@ -2,16 +2,16 @@ action,date,time,user,error
 APPROVED_MATCH,2018-09-11,01,bruno,none
 APPROVED_MATCH,2018-09-11,02,bruno,integration error
 APPROVED_MATCH,2018-09-11,03,bruno,none
-APPROVED_MATCH,2018-09-11,04,bruno,none
-APPROVED_MATCH,2018-09-11,05,bruno,none
-APPROVED_MATCH,2018-09-11,06,alice,none
-APPROVED_MATCH,2018-09-11,07,elton,integration error
-APPROVED_MATCH,2018-09-11,08,bruno,integration error
-APPROVED_MATCH,2018-09-11,09,bruno,none
-APPROVED_MATCH,2018-09-11,09,bruno,none
-APPROVED_MATCH,2018-09-11,10,elton,none
-APPROVED_MATCH,2018-09-11,11,alice,none
-APPROVED_MATCH,2018-09-11,12,elton,integration error
-APPROVED_MATCH,2018-09-11,13,alice,integration error
-APPROVED_MATCH,2018-09-11,14,bruno,none
-APPROVED_MATCH,2018-09-11,15,bruno,none
+APPROVED_MATCH,2018-09-14,04,bruno,none
+APPROVED_MATCH,2018-09-15,05,bruno,none
+APPROVED_MATCH,2018-09-16,06,alice,none
+APPROVED_MATCH,2018-09-17,07,elton,integration error
+APPROVED_MATCH,2018-09-18,08,bruno,integration error
+APPROVED_MATCH,2018-09-19,09,bruno,none
+APPROVED_MATCH,2018-09-20,09,bruno,none
+APPROVED_MATCH,2018-09-21,10,elton,none
+APPROVED_MATCH,2018-09-22,11,alice,none
+APPROVED_MATCH,2018-09-23,12,elton,integration error
+APPROVED_MATCH,2018-09-24,13,alice,integration error
+APPROVED_MATCH,2018-09-25,14,bruno,none
+APPROVED_MATCH,2018-09-26,15,bruno,none

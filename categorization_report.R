@@ -8,9 +8,18 @@ getCategorizationReportPlot <- function() {
   
   dataset <- read.csv("categorization.csv", sep = ",", header=T)
   
-  print(dataset)
+  for (index in 1:nrow(dataset)) {
+    
+  }
   
-  plot(x = dataset$date, y = dataset$action)
+  
+  # hist(dataset$date)
+  
+  # plot(x = dataset$date,  xlab = "Date", y = dataset$action, ylab = "Action", type="l" )
+  
+  # plot(data = dataset, x = dataset$date,  xlab = "Date", y = dataset$action, ylab = "Action", type="l" )
+  
+  matplot(dataset[, 2], dataset[, -2], type="l" )
   
   # return(list(dataset$date, dataset$action))
 }

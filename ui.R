@@ -97,14 +97,13 @@ ui <- dashboardPage(
       tabItem(tabName = "submenu-approved-match",
               h2("Approved Match"),
               fluidRow( box(column(DT::dataTableOutput("srv-approved-match-table"), width = 12))
-
               )),
 
       # submenu content
       tabItem(tabName = "submenu-categorization",
               h2("Categorization Report"),
-              fluidRow( box(
-                fileInput("FileInput", "Choose file"))),
+              # fluidRow( box(
+              #   fileInput("FileInput", "Choose file"))),
               fluidRow(
                 column(6, DT::dataTableOutput("srvCategorizationReportTable")),
                 column(6, plotOutput("srvCategorizationReportPlot")))
